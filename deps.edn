@@ -1,0 +1,7 @@
+{:aliases {:native-image {:extra-deps {luchiniatwork/cambada {:mvn/version "1.0.0"}}
+                          :main-opts ["-m" "cambada.native-image"
+                                      "-m" "app.main"]}
+           }
+ :paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        cheshire {:mvn/version "5.8.0"}}}
